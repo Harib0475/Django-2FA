@@ -1,11 +1,11 @@
 from django.shortcuts import render
-from django.views.generic import FormView,TemplateView
+from django.views.generic import FormView, TemplateView
 from two_factor.views import ProfileView
 from two_factor.views.utils import class_view_decorator
 from django.views.decorators.cache import never_cache
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
-from django.contrib.auth import authenticate,login,logout
+from django.contrib.auth import authenticate, login, logout
 from .form import SignUp
 
 
@@ -14,12 +14,15 @@ from .form import SignUp
 class Profile(ProfileView):
     template_name = 'home.html'
 
+
 def my_view(request):
-    return render(request,'secret.html')
+    return render(request, 'secret.html')
+
 
 def logout_(request):
     logout(request)
     return HttpResponseRedirect('/2f/account/login')
+
 
 def signup(request):
     if request.method == 'POST':
