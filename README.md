@@ -1,8 +1,11 @@
 # Django Two Factor Authentication
 
 Setting up ENV
-  pip install -r requirments.txt
+
+    pip install -r requirments.txt
+  
 Running server
+
     python manage.py makemigrations
     python manage.py migrate
     python manage.py runserver
