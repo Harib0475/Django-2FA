@@ -24,7 +24,7 @@ SECRET_KEY = '5cfa)#lzt7kfj!qdk(@5m6!82kdu3^pt!hp)4*u2i2j!)@xn^l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'authorization.CustomUser'
 

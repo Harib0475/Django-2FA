@@ -1,2 +1,8 @@
 /env/
 /db.sqlite3
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/.gitignore
+/.idea/Djnago-Two-Factor-Authentication.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
