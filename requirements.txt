@@ -13,4 +13,3 @@ qrcode==6.1
 six==1.15.0
 sqlparse==0.3.1
 
-
